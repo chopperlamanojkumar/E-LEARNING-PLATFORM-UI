@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>E-Learning</h1>
+    <nav>
+      <a href="#">Courses</a>
+      <a href="#">My Progress</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="course-list">
+      <h2>Available Courses</h2>
+      <div class="course" data-progress="100">
+        <strong>HTML Basics</strong>
+        <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+      </div>
+      <div class="course" data-progress="100">
+        <strong>CSS Fundamentals</strong>
+        <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+      </div>
+      <div class="course" data-progress="30">
+        <strong>JavaScript Essentials</strong>
+        <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+      </div>
+    </div>
+
+    <div class="progress-tracker">
+      <h2>Your Progress</h2>
+      <p>Total Courses Completed: 2 / 3</p>
+      <p>Next Course: <strong>JavaScript</strong></p>
+    </div>
+  </div>
+
+  <div class="video-section">
+    <h2>Course Video: HTML Basics</h2>
+    <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen></iframe>
+  </div>
+  <div class="video-section">
+    <h2>Course Video: CSS Fundamentals</h2>
+    <iframe src="https://www.youtube.com/embed/c26O1N3x6ug" allowfullscreen></iframe>
+  </div>
+  <div class="video-section">
+    <h2>Course Video: JavaScript</h2>
+    <iframe src="https://www.youtube.com/embed/Es_5ldiBc70" allowfullscreen></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
